@@ -9,7 +9,8 @@
 } */
 *{
     font-family: 'Poppins', sans-serif;
-
+    color: rgba(55,53,47,.6);
+    color:#8c8c8c;
 }
 
 /* NavBar */
@@ -179,10 +180,30 @@ main{
       transform: scaleX(1.5);
     }
   }
+
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
   .main_txt{
     /* padding: 0 6.3rem; */
 
   }
+.star_area{
+    text-align: center;
+}
+  svg {
+    stroke: currentcolor;
+    fill: currentcolor;
+    stroke-width: 0;
+    height: 1em;
+    width: 1em;
+    cursor: pointer;
+    font-size: 2em;
+}
+svg:hover{
+    color: #2196F3;
+}
   .footer_txt{
     text-align: center;
   }
