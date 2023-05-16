@@ -201,9 +201,27 @@ main{
     cursor: pointer;
     font-size: 2em;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+  }
+.row {
+    display: flex;
+    /* flex-wrap: wrap;
+    padding: 0 4px; */
+  }
 svg:hover{
     color: #2196F3;
 }
   .footer_txt{
     text-align: center;
+  }
+  @media (max-width: 300px) {
+    .container div {
+      /* width: 100vw;
+      flex-wrap: wrap; */
+      flex-basis: 100%;
+    }
   }
