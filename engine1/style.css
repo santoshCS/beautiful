@@ -403,43 +403,7 @@
 @-moz-keyframes wsBasic{0%{left:-0%} 25%{left:-0%} 50%{left:-100%} 75%{left:-100%} }
 @-webkit-keyframes wsBasic{0%{left:-0%} 25%{left:-0%} 50%{left:-100%} 75%{left:-100%} }
 
-#wowslider-container1 .ws_bullets  a img{
-	position:absolute;
-	display:block;
-	text-indent:0;
-	bottom:15px;
-	left:-43px;
-	visibility:hidden;
-	max-width:none;
-}
-#wowslider-container1 .ws_bullets a:hover img{
-	visibility:visible;
-}
-
 #wowslider-container1 .ws_bulframe div div{
-	height:48px;
-	overflow:visible;
-	position:relative;
-}
-#wowslider-container1 .ws_bulframe div {
-	left:0;
-	overflow:hidden;
-	position:relative;
-	width:85px;
-}
-#wowslider-container1  .ws_bullets .ws_bulframe{
-	position:absolute;
-	display:none;
-	bottom:25px;
-	margin-left:8px;
-	cursor:pointer;
-
-	/* fixed bulframe hidding in Chrome */
-	-webkit-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
-}#wowslider-container1 .ws_bulframe div div{
 	height: auto;
 }
 
